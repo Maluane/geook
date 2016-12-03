@@ -1,0 +1,35 @@
+#
+# generated on 2016/10/11 03:21:36
+#
+# --table-start--
+dataClass=br.edu.pdm.tccfreak.model.Usuario
+tableName=usuario
+# --table-fields-start--
+# --field-start--
+fieldName=codigo
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nome
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=login
+canBeNull=false
+unique=true
+# --field-end--
+# --field-start--
+fieldName=senha
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=email
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=foto
+dataPersister=SERIALIZABLE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

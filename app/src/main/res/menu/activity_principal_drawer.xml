@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnAluno"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="Aluno" />
+        <item
+            android:id="@+id/mnTrabalho"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Trabalho" />
+        <item
+            android:id="@+id/mnSobre"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/mnSair"
+            android:icon="@android:drawable/ic_notification_clear_all"
+            android:title="Sair" />
+    </group>
+
+    <item android:title="Sincronização">
+        <menu>
+            <item
+                android:id="@+id/mnSincronizar"
+                android:icon="@android:drawable/ic_menu_rotate"
+                android:title="Sincronizar" />
+        </menu>
+    </item>
+
+</menu>

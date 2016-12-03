@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TCCFreak</string>
+    <string name="dummy_content">BEM-VINDO AO TCCFREAK!</string>
+    <string name="edtLogin">Entre seu login</string>
+    <string name="edtSenha">Entre sua senha</string>
+    <string name="msgLoginErro">Login ou senha inválidos!</string>
+</resources>

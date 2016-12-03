@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.edu.pdm.tccfreak.UsuarioActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imvFoto"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.47" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:background="#76b5d0"></LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNome"
+        android:hint="Entre com o nome:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/edtEmail"
+        android:hint="Entre com o e-mail:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtLogin"
+        android:layout_gravity="center_horizontal"
+        android:hint="Entre com o login:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtSenha"
+        android:layout_gravity="center_horizontal"
+        android:hint="Entre com a senha:" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:id="@+id/btnSalvar"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Fechar"
+            android:id="@+id/btnFechar"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.28">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnMapa"
+            android:src="@android:drawable/ic_dialog_map" />
+    </LinearLayout>
+
+</LinearLayout>
